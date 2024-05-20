@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "crypto-js": "^4.2.0"
+  },
+  "name": "nuxios",
+  "version": "1.0.0",
+  "main": "core.js",
+  "scripts": {
+    "dev": "node core.mjs",
+    "dev-mon": "nodemon core.mjs"
+  },
+  "author": "qiravinci",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.2"
+  }
+}
