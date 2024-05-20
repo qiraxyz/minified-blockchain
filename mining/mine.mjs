@@ -63,11 +63,8 @@ class Blockchain {
     }
 }
 
-// Inisialisasi blockchain
 const difficulty = 2;
 const myBlockchain = new Blockchain(difficulty);
-
-// Simulasi penambangan blok
 const chiper = CryptoJS.SHA1(HASHUUIDIDENTIFY(16)).toString();
 const GenerateChiper = CryptoJS.SHA256(UUIDMAKER(8)).toString();
 const minerAddress = `${chiper}${GenerateChiper}`;
